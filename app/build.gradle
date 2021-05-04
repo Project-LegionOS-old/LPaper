@@ -60,12 +60,13 @@ android {
 
     buildTypes {
         release {
-            debuggable false
+            debuggable true
             zipAlignEnabled true
             minifyEnabled true
             shrinkResources false
             proguardFiles 'proguard-android-optimize.txt', 'proguard-rules.pro'
             consumerProguardFiles 'proguard-android-optimize.txt', 'proguard-rules.pro'
+            applicationIdSuffix 'LPaper'
         }
     }
 
